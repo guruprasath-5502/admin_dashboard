@@ -1,0 +1,63 @@
+.usercard {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 60px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px 0;
+  box-shadow: 1.5px 1.5px 3px 1px silver;
+}
+.usercard:hover {
+  scale: 1.005;
+}
+.card-img {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card-name {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.card-name p {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-left: 20px;
+  color: #a8a8a8;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.icons-edit {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 10%;
+  justify-content: space-around;
+  color: rgb(172, 172, 172);
+}
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  font-size: 23px;
+}
+.edit-icon:hover {
+  color: rgb(255, 213, 44);
+}
+.delete-icon:hover {
+  color: red;
+}

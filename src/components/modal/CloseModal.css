@@ -1,0 +1,71 @@
+.warn-icon-final {
+  color: #34b233;
+  margin-bottom: 15px;
+}
+
+.final {
+  margin-top: 15px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.warncancel {
+  border: none;
+  padding: 8px 5px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 40%;
+  color: #e9f4fb;
+  background-color: #2691d9;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  animation: "dropTop 0.3s linear";
+}
+
+.close-box {
+  border-radius: 5px;
+  height: 35%;
+  width: 25%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.close-box h3 {
+  font-size: 23px;
+  margin-bottom: 3px;
+  pointer-events: none;
+}
+
+.close-box p {
+  margin-bottom: 30px;
+  pointer-events: none;
+}
+
+.warncancel:hover {
+  color: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
+}
+
+.warncancel:active {
+  opacity: 0.4;
+}

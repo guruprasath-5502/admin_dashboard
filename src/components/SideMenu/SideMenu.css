@@ -1,0 +1,36 @@
+.heading,
+.active-heading {
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid silver;
+  padding-bottom: 20px;
+  font-weight: 400;
+  color: #f2ebeb;
+  font-size: 20px;
+}
+.heading:hover {
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.sidemenu {
+  height: 100%;
+  width: 350px;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  margin-top: 0;
+  padding: 20px;
+}
+
+.sidemenu h1 {
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  pointer-events: none;
+}
+
+.active-heading {
+  color: #000;
+  font-weight: 500;
+}
