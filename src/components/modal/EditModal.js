@@ -21,7 +21,7 @@ const EditModal = ({
     const result = await Add(formData);
     console.log(result);
     setformData({ name: "", avatar: "" });
-    return setCloseModal(true);
+    setCloseModal(true);
   };
 
   const handleEditSubmit = async (e) => {
@@ -29,7 +29,7 @@ const EditModal = ({
     const result = await Update(users);
     console.log(result);
     setusers({ id: "", name: "", avatar: "" });
-    return setCloseModal(true);
+    setCloseModal(true);
   };
 
   const handleChangeAdd = (e) => {
